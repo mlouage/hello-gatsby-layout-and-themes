@@ -1,13 +1,14 @@
 import React from "react"
-import { Link } from "gatsby"
-import { Box } from "@mui/material"
+import { Container } from "@mui/material"
+
+import Nav from "./nav";
 
 const Layout = ({ children }) => {
   return (
-    <Box>
-      <Link to="/">Index</Link> | <Link to="/about">About</Link>
+    <Container>
+      <Nav />
       <main>{children}</main>
-    </Box>
+    </Container>
   )
 }
 
