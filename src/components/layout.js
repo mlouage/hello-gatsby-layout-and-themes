@@ -5,7 +5,7 @@ import Nav from "./nav";
 
 const Layout = ({ children }) => {
   return (
-    <Container>
+    <Container sx={{backgroundColor: "red"}}>
       <Nav />
       <main>{children}</main>
     </Container>
